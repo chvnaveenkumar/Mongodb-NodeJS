@@ -22,7 +22,7 @@ MongoClient.connect('mongodb://localhost:27017/ToDoApp', (err, client) => {
         name: 'Naveen',
         age: 25,
         location: 'Maryville'
-    },(err,result) => {
+    },(err,result) => { 
         if(err)
         {
             return console.log('Unable to insert user', err);
